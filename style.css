@@ -1,0 +1,130 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: #42855B;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+}
+h2 {
+  color: #42855B;
+  font-family: 'Anek Telugu', sans-serif;
+  font-weight: normal;
+  font-size: 2rem
+}
+h3 {
+  color: #42855B;
+  font-family: 'Work Sans', sans-serif;
+}
+p {
+  font-family: 'Work Sans', sans-serif;
+  color: #40514E;
+  line-height: 2;
+}
+img {
+  display: inline-block;
+  margin: auto 0;
+}
+hr {
+  border-top: 7px dotted #B1D7B4;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 50px;
+  margin: 50px auto;
+}
+.top-container {
+  background-color: #B1D7B4;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud {
+  display: block;
+  position:absolute;
+  right: 400px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+.profilepicture {
+  height: 200px;
+  margin: 20px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  padding: 20px;
+}
+.cooking-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.coding-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.contact-me {
+  line-height: 2;
+}
+.bottom-container {
+  background-color: #B1D7B4;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+.btn {
+  background: #79b890;
+  background-image: -webkit-linear-gradient(top, #79b890, #42855B);
+  background-image: -moz-linear-gradient(top, #79b890, #42855B);
+  background-image: -ms-linear-gradient(top, #79b890, #42855B);
+  background-image: -o-linear-gradient(top, #79b890, #42855B);
+  background-image: linear-gradient(to bottom, #79b890, #42855B);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'Work Sans', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #B1D7B4;
+  background-image: -webkit-linear-gradient(top, #B1D7B4, #69b36e);
+  background-image: -moz-linear-gradient(top, #B1D7B4, #69b36e);
+  background-image: -ms-linear-gradient(top, #B1D7B4, #69b36e);
+  background-image: -o-linear-gradient(top, #B1D7B4, #69b36e);
+  background-image: linear-gradient(to bottom, #B1D7B4, #69b36e);
+  text-decoration: none;
+}
+.footer-link {
+  color:  #42855B;
+  display: inline-block;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+  padding: 30px;
+}
+.footer-link:hover {
+  color: #ffffff;
+}
+.footer-icon {
+  color: #F7F6DC;
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 40px;
+}
